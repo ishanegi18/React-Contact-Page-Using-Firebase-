@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css'
 import Navbar from './Components/Navbar'
 import { FaSearch,FaPlusCircle } from "react-icons/fa";
-import { collection, getDocs } from 'firebase/firestore';
+import { collection } from 'firebase/firestore';
 import { db } from './config/firebase';
 import {  onSnapshot } from "firebase/firestore";
 import ContactCard from './Components/ContactCard';

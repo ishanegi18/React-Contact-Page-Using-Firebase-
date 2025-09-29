@@ -4,7 +4,6 @@ import { TbEditCircle } from "react-icons/tb";
 import { deleteDoc, doc } from "firebase/firestore";
 import { db } from "../config/firebase";
 import AddandUpdate from "./AddandUpdate";
-import { useEffect, useState } from 'react';
 import UseDisclouse from "../hooks/UseDisclouse";
 
 const ContactCard = ({ contact }) => {
