@@ -1,4 +1,4 @@
-import Modal from "./Modal"
+import Modal from "./Modal.jsx"
 import { Form, Formik, Field } from "formik";
 import { addDoc, collection, doc, updateDoc } from 'firebase/firestore';
 import { db } from '../config/firebase';
